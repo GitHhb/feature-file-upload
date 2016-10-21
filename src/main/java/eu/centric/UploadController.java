@@ -20,7 +20,7 @@ public class UploadController extends WebMvcConfigurerAdapter {
 	@GetMapping("/upload")
 	public String uploadPage(Model model) {
 		System.out.println("Method - upload");
-		return "myupload.html";
+		return "myupload";
 	}
 //	@Override
 //    public void addViewControllers(ViewControllerRegistry registry) {
